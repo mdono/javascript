@@ -3,7 +3,7 @@
 var nombre;//variable creada
 //nombre="Manuel";//variable inicializada
 nombre='Pedro';
-//tipo nombre valor
+//tipo-nombre-valor
 // SET = COMPARACION == IDENTICO ===
 /*
 var Nombre='Juan';
