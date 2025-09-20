@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Programador Junior</title>
+    </head>
+    <body>
+        <script >
+            //Operadores Aritméticos
+            /*  < menor que
+                <= menor o igual que
+                > mayor que
+                >= mayor o igual que
+                = == === asignación, comparación, identico
+                != Distinto
+                Asignación
+                =   +=   -=   *=   /=   %=   **=   <<=   >>=   >>>=   &=   ^=   |=   &&=   ||=   ??=
+            */
+           let a, b, suma, res, multi, div, resid, poten;
+
+           //pedir datos al usuario
+           a = parseInt(prompt('Ingrese el valor 1...'));
+           b = parseInt(prompt('Ingrese el valor 2...'));
+
+           //suma
+           suma = a + b;
+           //resta
+           res = a - b;
+           //multiplicación - producto
+           multi = a * b;
+           //división - cociente
+           div = a / b;
+           //residuo
+           resid = a % b;
+           //potenciación
+           poten = a ** b;
+
+           document.write('Suma: ', suma);
+           document.write('<br>');
+           document.write('Resta: ', res);
+           document.write('<br>');
+           document.write('Multiplicación: ', multi);
+           document.write('<br>');
+           document.write('División: ', div);
+           document.write('<br>');
+           document.write('Residuo: ', resid);
+           document.write('<br>');
+           document.write('Potencia: ', poten);
+        </script>
+    </body>
+</html>
