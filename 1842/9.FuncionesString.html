@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Programador Junior</title>
+    </head>
+    <body>
+        <script >
+            //Funciones String
+            let texto1 ='JavaScript';
+            let texto2 ='JavaScript';
+            let texto3 ="Eso es la 'la verdad de' de todo";
+
+            let texto4 ='Esto es una cadena muy larga ' + '<br>' +
+            'que necesita que dividamos en varias lineas ' + '<br>' +
+            'de lo contrario, el código es ilegible';
+
+            let texto5 = 'Esto es una cadena muy larga \
+            que necesita que dividamos en varias líneas \
+            de lo contrario, el código es ilegible';
+
+            /*
+            document.write('<br>');
+            document.write(texto1);
+            document.write('<br>');
+            document.write(texto2);
+            document.write('<br>');
+            document.write(texto3);
+            document.write('<br>');
+            document.write(texto4);
+            document.write('<br>');
+            document.write(texto5);
+            document.write('<br>');
+            */
+
+
+            let palabra='JavaScript';
+            document.write('La palabra es: ', palabra);
+            document.write('<br>');
+
+            //ver el tamaño de un texto
+            document.write('Cantidad de letras: ', palabra.length);
+            document.write('<br>');
+
+            //ver cantidad específica de letras
+            document.write('Primeras 4 letras: ', palabra.slice(0,4));
+            document.write('<br>');
+            document.write('Ultimas 6 letras: ', palabra.slice(4,10));
+            document.write('<br>');
+
+            //ver caracteres específicos de un texto
+            document.write('Ultimas 6 letras: ', palabra.substring(4,10));
+            document.write('<br>');
+
+            //cambiar valores en un texto
+            let saludo='Hola a todos';
+            saludo = saludo.replace('Hola','adiós');
+            document.write(saludo);
+            document.write('<br>');
+
+            //Convertir en mayúsculas
+            document.write('En mayúsculas: ', palabra.toUpperCase());
+            document.write('<br>');
+
+            //Convertir en minúsculas
+            document.write('En mayúsculas: ', palabra.toLocaleLowerCase());
+            document.write('<br>');
+
+            //Unir texto
+            let palabra2='Curso de ';
+            document.write('unir palabras: ', palabra2.concat(palabra));
+            document.write('<br>');
+
+            //acotar espacios entre textos
+            let palabra3='      Hola    Mundo';
+            document.write(palabra3);
+            document.write('<br>');
+            document.write(palabra3.trimStart());
+            document.write('<br>');
+            document.write(palabra3.trimEnd());
+            document.write('<br>');
+            document.write(palabra3.trim());
+            document.write('<br>');
+
+            //cortar cantidad de caracteres
+            document.write(palabra.split('Script'));
+            document.write('<br>');
+        </script>
+    </body>
+</html>
